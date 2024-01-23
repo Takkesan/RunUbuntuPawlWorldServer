@@ -1,11 +1,6 @@
-#!/bin/bas
-
 # Install steamcmd
 sudo add-apt-repository multiverse; sudo dpkg --add-architecture i386; sudo apt update
 sudo apt install steamcmd
-
-# Reboot
-#sudo reboot
 
 # Install server
 steamcmd +login anonymous +app_update 2394010 validate +quit
